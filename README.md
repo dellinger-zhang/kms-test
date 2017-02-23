@@ -1,16 +1,11 @@
-## WebRtc.NET: WebRTC for C# & C++/CLI
+Kurento media server pressure tools
+=====
 
-...current way of incorporating the WebRTC libraries into your project is a total nightmare. The build system (aka Ninja http://www.webrtc.org/native-code/development) is extremely complicated. You are going to be doing everything from the command line, it take ages to even download the source code (~10GB), try it and cry... ;D
+1. based on https://github.com/radioman/WebRtc.NET 
+2. customized sdp session between kms and client.
+3. customized fake camera pushing to kms. 
 
-*What you get is the compiled code in a static library that you can just throw into your project. Using webrtc as a library is easy!*
+Any ideas or suggests is welcome.
 
-- Mailing list: http://groups.google.com/group/discuss-webrtc
-- More info: http://www.html5rocks.com/en/tutorials/webrtc/infrastructure/
-
-last update from https://chromium.googlesource.com/external/webrtc.git
-
-Revision: 3e4faae0edeb2b30e899712f92217d2aa5cd6ff2
- Date: 2017-01-21 08:43:34
-
-![demo](/web/demo.gif?raw=true)
-
+dellinger.zhang
+2017
